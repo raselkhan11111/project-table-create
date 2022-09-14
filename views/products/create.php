@@ -25,7 +25,7 @@
         ?>
 
         <a href="./index.php">List</a>
-        <form action="./store.php" method="post">
+        <form action="./store.php" method="post" enctype="multipart/form-data">
             <input 
                 type="text" 
                 name="student_id" 

@@ -37,9 +37,9 @@ class student
 
     public function store(array $data)
     {
-// img store.....................
+        // img store.....................
 
-$uploaddir = './../../assets/uploads/';
+        $uploaddir = './../../assets/uploads/';
 
         // $uploadfile = $uploaddir . $_FILES['picture']['name'];
 
